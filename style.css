@@ -200,6 +200,29 @@ h1.name {
     margin: 0;
 }
 
+/* Button Styles */
+.btn-primary {
+    display: block;
+    padding: 0.8rem 1rem;
+    background: var(--text-primary);
+    color: var(--bg-color);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border: 2px solid var(--text-primary);
+    text-align: center;
+    transition: all 0.2s;
+    letter-spacing: 0.05em;
+}
+
+.btn-primary:hover {
+    background: var(--bg-color);
+    color: var(--text-primary);
+    box-shadow: 4px 4px 0px var(--accent);
+    transform: translateY(-2px);
+}
+
 /* Print Styles */
 @media print {
     body {
